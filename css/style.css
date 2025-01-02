@@ -1,0 +1,165 @@
+.warna1 {
+    background-color: #8EACCD;
+    
+}
+
+.warna2 {
+    background-color: #D4E7C5;
+}
+
+.warna3 {
+    background-color: #BFD8AF;
+}
+
+.warna4 {
+    background-color: #99BC85;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/bg.jpg);
+    background-position: center; /* Atur posisi background ke tengah */
+    background-size: cover; /* Atur agar gambar background menutupi seluruh area */
+}
+
+
+.poduk-unggul {
+    height: 250px;
+}
+
+.unggul1 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/cewe2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.unggul2 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/laki2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.unggul3 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/hijrah2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+.no-decoration:hover {
+    color: #99BC85;
+}
+
+.text-harga {
+    font-size: 20px;
+    color: coral;
+}
+
+.image-box {
+    height: 200px !important;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-subscribe a {
+    color: #fff;
+}
+
+.banner2 {
+    height: 45vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/bg.jpg);
+    background-position: 40% 55%; /* Atur posisi background ke tengah */
+    background-size: cover; /* Atur agar gambar background menutupi seluruh area */
+}
+
+.produk-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner3 {
+    height: 45vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/foto.jpg);
+    background-position: 40% 55%; /* Atur posisi background ke tengah */
+    background-size: cover; /* Atur agar gambar background menutupi seluruh area */
+}
+
+/* Styling untuk tombol bot dalam navigasi */
+.kms-bot {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 10px; /* Jarak dengan elemen sebelumnya */
+}
+
+.kms-bot:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.kms-bot i {
+    font-size: 16px; /* Ukuran ikon lebih kecil agar proporsional */
+}
+
+
+
+/* Styling modal */
+.kms-bot-modal {
+    display: none; /* Awalnya disembunyikan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna overlay */
+    z-index: 1001;
+}
+
+.kms-bot-modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.kms-bot-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.kms-bot-close:hover,
+.kms-bot-close:focus {
+    color: #000;
+    text-decoration: none;
+}
+
